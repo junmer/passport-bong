@@ -30,7 +30,7 @@ specifying a client ID, client secret, and callback URL.
         callbackURL: "http://127.0.0.1:3000/auth/bong/callback"
       },
       function(accessToken, refreshToken, profile, done) {
-        User.findOrCreate({ bongId: profile.id }, function (err, user) {
+        User.findOrCreate({ bongId: profile.uid }, function (err, user) {
           return done(err, user);
         });
       }
