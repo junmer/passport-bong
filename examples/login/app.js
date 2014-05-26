@@ -1,7 +1,7 @@
 var express = require('express')
   , passport = require('passport')
   , util = require('util')
-  , BongStrategy = require('passport-oauth2').Strategy;
+  , BongStrategy = require('passport-bong').Strategy;
 
 
 // BONG CONF

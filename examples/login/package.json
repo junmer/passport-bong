@@ -5,6 +5,6 @@
     "express": "2.0",
     "ejs": ">= 0.0.0",
     "passport": ">= 0.0.0",
-    "passport-oauth2": "git://github.com/junmer/passport-oauth2#master"
+    "passport-bong": "git://github.com/junmer/passport-bong#master"
   }
 }
