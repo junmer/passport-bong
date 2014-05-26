@@ -56,7 +56,10 @@ application:
 
 ## Examples
 
-For a complete, working example, refer to the [login example](https://github.com/jaredhanson/passport-bong/tree/master/examples/login).
+For a complete, working example, refer to the [login example](https://github.com/junmer/passport-bong/tree/master/examples/login).
+
+    $ git clone https://github.com/junmer/passport-bong
+    $ cd passport-bong/examples/login && npm install && node app.js
 
 ## Tests
 
