@@ -5,8 +5,8 @@
 [Passport](http://passportjs.org/) strategy for authenticating with [Bong](http://bong.cn/open/)
 using the OAuth 2.0 API.
 
-This module lets you authenticate using GitHub in your Node.js applications.
-By plugging into Passport, GitHub authentication can be easily and
+This module lets you authenticate using Bong in your Node.js applications.
+By plugging into Passport, Bong authentication can be easily and
 unobtrusively integrated into any application or framework that supports
 [Connect](http://www.senchalabs.org/connect/)-style middleware, including
 [Express](http://expressjs.com/).
@@ -19,7 +19,7 @@ unobtrusively integrated into any application or framework that supports
 
 #### Configure Strategy
 
-The GitHub authentication strategy authenticates users using a GitHub account
+The Bong authentication strategy authenticates users using a Bong account
 and OAuth 2.0 tokens.  The strategy requires a `verify` callback, which accepts
 these credentials and calls `done` providing a user, as well as `options`
 specifying a client ID, client secret, and callback URL.
@@ -38,7 +38,7 @@ specifying a client ID, client secret, and callback URL.
 
 #### Authenticate Requests
 
-Use `passport.authenticate()`, specifying the `'github'` strategy, to
+Use `passport.authenticate()`, specifying the `'Bong'` strategy, to
 authenticate requests.
 
 For example, as route middleware in an [Express](http://expressjs.com/)
