@@ -59,7 +59,9 @@ application:
 For a complete, working example, refer to the [login example](https://github.com/junmer/passport-bong/tree/master/examples/login).
 
     $ git clone https://github.com/junmer/passport-bong
-    $ cd passport-bong/examples/login && npm install && node app.js
+    $ cd passport-bong/examples/login && npm install 
+    $ vi app.js //update BONG_CLIENT_ID, BONG_CLIENT_SECRET
+    $ node app.js
 
 ## Tests
 
