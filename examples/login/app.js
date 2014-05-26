@@ -1,18 +1,16 @@
 var express = require('express')
   , passport = require('passport')
   , util = require('util')
-  , BongStrategy = require('../../lib').Strategy;
+  , BongStrategy = require('passport-oauth2').Strategy;
 
 
-
-/* test conf start */
+// BONG CONF
+var BONG_CLIENT_ID = '--insert-bong-client-id-here--';
+var BONG_CLIENT_SECRET = '--insert-bong-client-secret-here--';
 var BONG_HOST = 'http://open-test.bong.cn';
-var BONG_CLIENT_ID = "--insert-bong-client-id-here--"
-var BONG_CLIENT_SECRET = "--insert-bong-client-secret-here--";
 var BONG_TOKEN_URL = BONG_HOST + '/oauth/token';
 var BONG_AUTHORIZATION_URL = BONG_HOST + '/oauth/authorize';
 var BONG_USERPROFILE_URL = BONG_HOST + '/1/userInfo/{$uid}';
-/* test conf end */
 
 
 // Passport session setup.
